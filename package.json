@@ -1,0 +1,22 @@
+{
+    "name": "telebot-femto",
+    "version": "1.0.0",
+    "description": "telegram bot ",
+    "keywords": [
+        "bot",
+        "telebot",
+        "femto"
+    ],
+    "license": "ISC",
+    "author": "femto",
+    "type": "commonjs",
+    "main": "main.js",
+    "scripts": {
+        "dev": "nodemon main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "dotenv": "^17.2.2",
+        "node-telegram-bot-api": "^0.66.0"
+    }
+}
